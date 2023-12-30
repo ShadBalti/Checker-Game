@@ -1,0 +1,45 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+}
+
+#board-container {
+  border: 2px solid #555;
+}
+
+.square {
+  width: 50px;
+  height: 50px;
+}
+
+.square.white {
+  background-color: #ffce9e;
+}
+
+.square.black {
+  background-color: #d18b47;
+}
+
+.piece {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.piece.king {
+  border: 2px solid #fff;
+}
+
+.valid-move {
+  background-color: #8aff8a !important;
+}
+
+.selected {
+  border: 2px solid #00f;
+  }
+ 
